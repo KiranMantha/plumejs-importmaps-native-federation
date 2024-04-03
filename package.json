@@ -1,0 +1,17 @@
+{
+  "name": "plumejs-importmaps-native-federation",
+  "version": "1.0.0",
+  "description": "a plumejs application using importmaps and native module federation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-host": "http-server ./apps/host/src -p 4100",
+    "start-todo": "http-server ./apps/todo/src -p 4101"
+  },
+  "keywords": [],
+  "author": "KiranMantha",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
